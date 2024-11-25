@@ -9,7 +9,7 @@ import './App.css';
 function App() {
   return (
     <>
-    <BrowserRouter basename="/COMP-3170-Frontend_Web_Development_2-Assignment_07">
+    <BrowserRouter basename="COMP-3170-Frontend_Web_Development_2-Assignment_07">
       <Routes>
         <Route path="/" element={<Countries />}>
           <Route path="countries/:cca2" element={<Details />} />
