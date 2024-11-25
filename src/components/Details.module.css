@@ -1,0 +1,25 @@
+.details_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.details_container h2 {
+  font-size: 36px;
+  margin: 10px 0
+}
+
+.details_container .flat_img {
+  width: 300px;
+  height: auto;
+}
+
+.details_container p {
+  margin: 0;
+}
+
+.details_container p:first-of-type {
+  margin-top: 20px;
+}
